@@ -1,0 +1,112 @@
+
+body{
+		margin: 0;
+		padding: 0;
+		background-color: black;
+	}
+p{
+		text-align: center;
+		font-family: sans-serif, arial;
+
+	}
+	
+	.conteiner-header{
+		width: 100%;
+	}
+	.header-link{
+
+	}
+	.conteiner-header-img{
+		width: 100%;
+	}
+	.formulario{
+		
+		margin: auto;
+		width: max-content;
+	}
+	.button{
+		
+		margin: auto;
+		width: max-content;
+	}
+	.fr-carrosel{
+		color: yellow;
+		font-size: 25px;
+		margin-top: 60px;
+		
+	}
+	.fr-form{
+		color: white;
+		font-size: 25px;
+	}
+	input[type="submit"]{
+		width: 13.38em;
+		height: 3.1em;
+		background-color: yellow;
+		font-family: sans-serif;
+		font-weight: 900;
+		letter-spacing: 2px;
+		border:2px solid yellow;
+	}
+	input[type="email"]{
+		width: 25em;
+		height: 3.1em;
+		margin: 1.25em;
+		padding: 0 8px;
+	}
+	.categorias{
+		background-image: url("../img/categorias.png");
+		background-repeat: no-repeat;
+		
+		padding-top: 10px;
+		width: 780px;
+		height: 410px;
+		position: relative;
+		margin: auto;
+
+
+	}
+	.logo-img{
+		display: inline-block;
+		margin: 5px;
+
+
+
+	}
+	.logo-img:hover{
+		opacity: 0.5;
+	}
+	.logo-img-conteiner{
+		
+		width: 679px;
+		height: 280px;
+		margin:60px auto 0 auto;
+		
+		
+	}
+	.cadastro{
+		font-weight: bolder;
+	}
+	
+	@media screen and (max-width:780px){
+		.fr-carrosel{
+			font-size: 20px;
+		}			
+		.categorias{
+			background-image: url(../img/categorias-mobila.png);
+			background-repeat: no-repeat;
+			width: 410px;
+			height: 780px;
+			margin: auto;
+			padding-top: 8px;
+		}
+		.logo-img-conteiner{
+			width: 271px;
+			height: 690px;
+			
+		}
+		.fr-carrosel{
+			font-size:19px;
+			margin-bottom: 50px;
+		}
+	}

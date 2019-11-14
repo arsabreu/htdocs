@@ -1,0 +1,104 @@
+
+body{
+		margin: 0;
+		padding: 0;
+		background-color: black;
+	}
+p{
+		text-align: center;
+		font-family: sans-serif, arial;
+
+	}
+	
+	.conteiner-header{
+		width: 100%;
+	}
+	.header-link{
+
+	}
+	.conteiner-header-img{
+		width: 100%;
+	}
+	.formulario{
+		
+		margin: auto;
+		width: max-content;
+	}
+	.button{
+		
+		margin: auto;
+		width: max-content;
+	}
+	.fr-carrosel{
+		color: yellow;
+		font-size: 1.40rem;
+		
+	}
+	.fr-form{
+		color: white;
+		font-size: 1.2rem;
+	}
+	input[type="submit"]{
+		width: 13.38em;
+		height: 3.1em;
+		background-color: yellow;
+		font-family: sans-serif;
+		font-weight: 900;
+		letter-spacing: 2px;
+		border: 2px solid yellow;
+		margin-bottom: 80px;
+	}
+	input[type="email"]{
+		width: 25em;
+		height: 3.1em;
+		margin: 1.25em;
+		padding: 0 8px;
+	}
+	
+	.categorias{
+		display: grid;
+		grid-template-columns: repeat(5, 7.62em);
+		grid-template-rows: repeat(2, 7.62em);
+		grid-gap: 0.63em;
+		width: max-content;
+		height: max-content;
+		margin: 35px auto 0 auto;
+		padding: 2em 1.25em;
+		
+
+	}
+	.categorias-bord{
+		background-image: url(../img/categorias.png);
+		background-repeat: no-repeat;
+		padding-top: 10px;
+		width: 780px;
+		height: 410px;
+		margin: auto;
+
+	}
+	.categorias-img:hover{
+		opacity: .5;
+	}
+	.cadastro{
+		font-weight: bolder;
+	}
+
+	@media screen and (max-width: 780px){
+		.categorias-bord{
+			background-image: url(../img/categorias-mobila.png);
+			background-repeat: no-repeat;
+			width: 410px;
+			height: 780px;
+			margin: auto;
+			padding-top: 8px;
+		}
+		.categorias{
+			grid-template-columns: repeat(2, 7.62em);
+			grid-template-rows: repeat(6, 7.62em);
+
+		}
+		.fr-carrosel{
+			font-size:1rem;
+		}
+	}
+
