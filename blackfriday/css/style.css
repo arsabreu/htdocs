@@ -13,9 +13,7 @@ p{
 	.conteiner-header{
 		width: 100%;
 	}
-	.header-link{
-
-	}
+	
 	.conteiner-header-img{
 		width: 100%;
 	}
@@ -32,7 +30,7 @@ p{
 	.fr-carrosel{
 		color: yellow;
 		font-size: 25px;
-		margin-top: 60px;
+		margin-top: 50px;
 		
 	}
 	.fr-form{
@@ -40,17 +38,28 @@ p{
 		font-size: 25px;
 	}
 	input[type="submit"]{
-		width: 13.38em;
-		height: 3.1em;
+		width: 13.5em;
+		height: 3.5em;
 		background-color: yellow;
 		font-family: sans-serif;
 		font-weight: 900;
 		letter-spacing: 2px;
 		border:2px solid yellow;
+		margin-top: 10px;
 	}
+
+	input[type="submit"]:hover{
+		background-color: yellow;
+		font-size: 14px;
+	}
+
+	input[type="submit"]:after {
+		
+	}
+
 	input[type="email"]{
-		width: 25em;
-		height: 3.1em;
+		width: 40em;
+		height: 3.5em;
 		margin: 1.25em;
 		padding: 0 8px;
 	}

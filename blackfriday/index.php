@@ -35,13 +35,6 @@ require 'db_connection.php';
 
 
 
-
-
-
-
-	
-
-
 		</div>
 		<p class="fr-carrosel">Confira algumas das lojas que terão ofertas incriveis na Black Friday</p>
 		<!--<article class="carrosel">
